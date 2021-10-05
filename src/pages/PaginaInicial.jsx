@@ -1,5 +1,5 @@
 import React from 'react';
-import { Col, Image, Row } from 'react-bootstrap';
+import { Col, Container, Image, Row } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import "../Style/Style-PaginaInicial.css";
 import {FiChevronsRight} from "react-icons/fi";
@@ -7,16 +7,18 @@ import {FiChevronsRight} from "react-icons/fi";
 const PaginaInicial = () => {
     return (
         <>
-            <header> 
+            <body> 
 
                 <div className= "img-wrapper">
                     <Image src = "https://static.congressoemfoco.uol.com.br/2018/08/plenario_camara_saulo_cruz_agencia_camara-e1541608863305.jpg" bsPrefix/>
                 </div>
 
-                <div className= "banner">
+                <Container>  
+
+                <Row className= "banner">
                     <h1 className="menu" to="/">Câmara dos Deputados</h1>
 
-                </div>
+                </Row>
 
                 <Row className="bannerOne">
                     <Col md= {6}>
@@ -44,17 +46,15 @@ const PaginaInicial = () => {
                     <Link  className="links" to="/referencias"><FiChevronsRight/>Referências</Link>
                     </Col>
                     <Col md = {6}>
-                    <Link  className="links" to="/referencias"><FiChevronsRight/>Referências</Link>
-                    </Col>
-                    <Col md = {6}>
                     <Link  className="links" to="/votacoes"><FiChevronsRight/>Votações</Link>
                     </Col>
                     <Col md = {6}>
                     <Link  className="links" to="/orgaos"><FiChevronsRight/>Orgãos</Link>
                     </Col>
                 </Row>
+                </Container>
 
-            </header>
+            </body>
             
         </>
     )

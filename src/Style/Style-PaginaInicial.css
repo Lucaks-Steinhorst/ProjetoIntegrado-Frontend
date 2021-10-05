@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Catamaran:wght@100;200;300;400&family=Fjalla+One&display=swap');
 
-header{ 
+body{ 
     width: 100%;
     height : 100vh; 
     overflow: hidden;
@@ -18,7 +18,7 @@ header{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.6;
+    opacity: 0.3;
     animation: zoom 20s;
 
 }
@@ -35,16 +35,15 @@ header{
 .banner{
     position: absolute;
     top: 10%; 
-    left: 23%;
+    left: 33%;
 
 }
 
 .bannerOne{
     position: absolute;
-    margin-left: 150px;
     top: 30%; 
-    left: 10%; 
     margin-top: 8px;
+    left: 28%;
 }
 
 .menu {
