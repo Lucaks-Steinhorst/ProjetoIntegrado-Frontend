@@ -7,7 +7,7 @@ import {FiChevronsRight} from "react-icons/fi";
 const PaginaInicial = () => {
     return (
         <>
-            <body> 
+            <div id='pagina'> 
 
                 <div className= "img-wrapper">
                     <Image src = "https://static.congressoemfoco.uol.com.br/2018/08/plenario_camara_saulo_cruz_agencia_camara-e1541608863305.jpg" bsPrefix/>
@@ -54,7 +54,7 @@ const PaginaInicial = () => {
                 </Row>
                 </Container>
 
-            </body>
+            </div>
             
         </>
     )

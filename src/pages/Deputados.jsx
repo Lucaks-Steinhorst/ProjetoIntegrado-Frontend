@@ -43,7 +43,6 @@ const Deputados = () => {
                     </Col>
                 ))}
             </Row>
-            
         </Container>
     )
 }
